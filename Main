@@ -1,0 +1,172 @@
+<!--
+    RMIT University Vietnam
+    Course: COSC2430 Web Programming
+    Semester: 2023A
+    Assessment: Assignment 1
+    Author: Dao The Anh
+    ID: s3978728
+    Acknowledgement: Images are from google searches. Insperation are from mangadex (https://mangadex.org/)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cat Tales Bookstore</title>
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="Main"><li>Home</li></a>
+            <a href="Sub"><li>Fiction</li></a>
+            <a href=#><li>Horror</li></a>
+            <a href=#><li>Fantasy</li></a>
+            <a href=#><li>Mystery</li></a>
+            <a href=#><li>Light Novel</li></a>
+            <a href=#><li>Comics</li></a>
+            <a href="Contact"><li>Contact Us</li></a>
+          </ul>
+        </div>
+      </nav>
+    <header>
+        <nav class="desktop-nav">
+            <img src="https://t3.ftcdn.net/jpg/04/53/63/06/360_F_453630693_KAWTBNQRtMj0hUAAm5nF62I1NlpzVRfj.jpg" alt="header" class="header">
+            <a href="Main"><img src="https://cdn.discordapp.com/attachments/1068225590429220956/1136803247445786724/image.png" 
+            alt="def not mangadex" class="logo"></a>
+            <ul class="navbar">
+                <table>
+                    <tr>
+                        <td><a href=#>Featured</a></td>
+                        <td><a href=#>Best Seller</a></td>
+                        <td><a href=#>Random</a></td>
+                        <td><a href="Contact">Contact Us</a></td>
+                    </tr>
+                </table>
+            </ul>
+        </nav>
+        <nav class="mobile-nav">
+            <img src="https://t3.ftcdn.net/jpg/04/53/63/06/360_F_453630693_KAWTBNQRtMj0hUAAm5nF62I1NlpzVRfj.jpg" alt="header" class="header">
+            <a href="Main"><img src="https://cdn.discordapp.com/attachments/1068225590429220956/1136803247445786724/image.png" 
+            alt="def not mangadex" class="logo"></a>
+        </nav>
+    </header>
+    <main>
+        <a href="Sub"><h2>Comics</h2></a>
+        <div class="container">
+            <section class="category">
+                <div class="book-container">
+                    <a href="Book"><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685994372l/62956849.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1669080856l/63251784.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681108146l/61484888.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684790548l/63213987.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1666032841l/62917505._SX318_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665108384l/62898870.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690139782l/79501767.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675262537l/90274586.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1685355881l/62956881.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684779853l/63375854.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689935759l/164749374.jpg" alt="Book"></div></a>
+                </div>
+            </section>
+        </div>
+        <a href=#><h2>Fiction</h2></a>
+        <div class="container">
+            <section class="category">
+                <div class="book-container">
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690263903l/194984166._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667001947l/62326344.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681921623l/62919356.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686092508l/62334530._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1673398288l/62589532._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1688461083l/178158298._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682451044l/68005500._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665155158l/60568206.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686761092l/62919394.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675082851l/61884842.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675355524l/62197599.jpg" alt="Book"></div></a>
+                </div>
+            </section>
+        </div>
+        <a href=#><h2>Horror</h2></a>
+        <div class="container">
+            <section class="category">
+                <div class="book-container">
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670014934l/63249718.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667946255l/63259070.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668687160l/62649010.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682451044l/68005500._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680673109l/125079705._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681796817l/62925087.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1669324638l/62966507.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665335960l/58151316._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1666714487l/62919174.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1669840758l/63264519._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1664285565l/61884782.jpg" alt="Book"></div></a>
+                </div>
+            </section>
+        </div>
+        <a href=#><h2>Fantasy</h2></a>
+        <div class="container">
+            <section class="category">
+                <div class="book-container">
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1677612497l/63847274._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1690263903l/194984166._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680024005l/63890424._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667001947l/62326344.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1666769563l/63103712.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681921623l/62919356.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675720228l/63200679._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1680664712l/125047547._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1688461083l/178158298._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1655812012l/61332698._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665155158l/60568206.jpg" alt="Book"></div></a>
+                </div>
+            </section>
+        </div>
+        <a href=#><h2>Mystery</h2></a>
+        <div class="container">
+            <section class="category">
+                <div class="book-container">
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686092508l/62334530._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670438734l/57932307._SY475_.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670014934l/63249718.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675082851l/61884842.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667946255l/63259070.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1669041540l/52379875.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667412226l/61255301.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686761077l/62919888.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682981995l/59441651.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1675694555l/62197595.jpg" alt="Book"></div></a>
+                    <a href=#><div class="book"><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682451044l/68005500._SY475_.jpg" alt="Book"></div></a>
+                </div>
+            </section>
+        </div>
+        <ul class="media">
+            <table>
+                <tr>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0793875472814!2d105.80888811167871!3d21.02950928053924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab730d0a2249%3A0xc7bc781234943dcb!2sRMIT%20University%20Vietnam%2C%20Hanoi%20City%20Campus!5e0!3m2!1sen!2s!4v1691478599694!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.youtube.com/embed/l0jiPmNT8w8" title="Cat news" frameborder="0"></iframe>
+                </tr>
+            </table>
+        </ul>
+    </main>
+    <footer>
+        <div class="footer">
+            <table>
+                <tr>
+                    <td><a href="Contact">Contact Us</a></td>
+                    <td><a href=#>Privacy Policy</a></td>
+                    <td><a href=#>Terms</a></td>
+                    <td><a href=#>Copyright</a></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>
