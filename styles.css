@@ -108,7 +108,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute; top: 20px;
-  width: 80%;
+  width: 95%;
   z-index: 2;
 }
 .navbar td {
@@ -178,9 +178,10 @@ body {
   position: relative;
   top: 33px;
   left: 50px;
-  z-index: 2;
+  z-index: 3;
   -webkit-user-select: none;
   user-select: none;
+  width: 10%;
 }
 #menuToggle a {
   text-decoration: none;
